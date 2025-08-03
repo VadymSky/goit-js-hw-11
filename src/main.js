@@ -9,7 +9,7 @@ import {
   hideLoader,
 } from './js/render-functions.js';
 
-const form = document.querySelector('.form');
+let form = document.querySelector('.form');
 const input = form.querySelector('.search-images-input');
 
 form.addEventListener('submit', event => {
